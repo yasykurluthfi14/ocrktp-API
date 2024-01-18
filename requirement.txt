@@ -1,0 +1,10 @@
+Flask
+Pillow
+numpy
+pytesseract
+click
+itsdangerous
+Jinja2
+MarkupSafe
+uWSGI
+Werkzeug

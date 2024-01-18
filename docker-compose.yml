@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  flask-ocr:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flask-ocr-container
+    ports:
+      - "50100:50100"
+    volumes:
+      - ./ocr:/app
